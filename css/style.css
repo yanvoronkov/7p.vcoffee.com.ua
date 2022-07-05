@@ -496,7 +496,7 @@ body._touch .menu__list > li._active .menu__arrow {
 }
 
 .page__product {
-  background: url(img/product/background.jpeg) 0 0/cover no-repeat;
+  background: url(../img/product/background.jpeg) 0 0/cover no-repeat;
 }
 
 .page__processing {
@@ -756,7 +756,7 @@ body._touch .menu__list > li._active .menu__arrow {
 }
 
 .advantages__value {
-  background: url(img/advantages/01.png) center no-repeat;
+  background: url(../img/advantages/01.png) center no-repeat;
 }
 
 .advantages__buttons:not(:last-child) {
@@ -1135,19 +1135,19 @@ body._touch .menu__list > li._active .menu__arrow {
 }
 
 ._text-1 {
-  background: url(img/control/02.svg) center no-repeat;
+  background: url(../img/control/02.svg) center no-repeat;
 }
 
 ._text-2 {
-  background: url(img/control/03.svg) center no-repeat;
+  background: url(../img/control/03.svg) center no-repeat;
 }
 
 ._text-3 {
-  background: url(img/control/04.svg) center no-repeat;
+  background: url(../img/control/04.svg) center no-repeat;
 }
 
 ._text-4 {
-  background: url(img/control/05.svg) center no-repeat;
+  background: url(../img/control/05.svg) center no-repeat;
 }
 
 .columns-control__image img {
