@@ -1126,7 +1126,7 @@ body._touch .menu__list > li._active .menu__arrow {
 }
 
 .columns-control__text:not(:last-child) {
-  margin: 0px 0px 30px 0px;
+  padding: 0px 0px 30px 0px;
 }
 
 .columns-control__text {
@@ -1135,19 +1135,19 @@ body._touch .menu__list > li._active .menu__arrow {
 }
 
 ._text-1 {
-  background: url(../img/control/02.svg) center no-repeat;
+  background: url(../img/advantages/01.png) center no-repeat;
 }
 
 ._text-2 {
-  background: url(../img/control/03.svg) center no-repeat;
+  background: url(../img/advantages/01.png) center no-repeat;
 }
 
 ._text-3 {
-  background: url(../img/control/04.svg) center no-repeat;
+  background: url(../img/advantages/01.png) center no-repeat;
 }
 
 ._text-4 {
-  background: url(../img/control/05.svg) center no-repeat;
+  background: url(../img/advantages/01.png) center no-repeat;
 }
 
 .columns-control__image img {
