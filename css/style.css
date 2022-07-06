@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 380px) {
   ._button {
-    font-size: 18px;
+    font-size: 16px;
     min-height: 18px;
     line-height: 130%;
   }
@@ -564,10 +564,11 @@ body._touch .menu__list > li._active .menu__arrow {
 
   .main-block__text {
     font-size: 20px;
+    padding: 0px 0px 75px 0px;
   }
 
   .main-block__body {
-    padding: 85px 0px 160px 0px;
+    padding: 25px 0px 160px 0px;
   }
 
   .main-block__button {
@@ -839,8 +840,8 @@ body._touch .menu__list > li._active .menu__arrow {
     font-size: 20px;
   }
 
-  .product__container {
-    padding: 0px;
+  .product__body {
+    margin: 0px -20px;
   }
 
   .product__item {

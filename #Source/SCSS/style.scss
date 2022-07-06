@@ -60,7 +60,7 @@
 }
 @media (max-width: 380px) {
 	._button {
-		font-size: 18px;
+		font-size: 16px;
 		min-height: 18px;
 		line-height: 130%;
 	}
@@ -412,9 +412,10 @@ margin: 0px 0px 35px 0px;
 	}
 	.main-block__text {
 		font-size: 20px;
+		padding: 0px 0px 75px 0px;
 	}
 	.main-block__body {
-		padding: 85px 0px 160px 0px;
+		padding: 25px 0px 160px 0px;
 	}
 	.main-block__button {
 		flex: 1 1 100%;
@@ -643,8 +644,8 @@ margin: 0px 0px 17px 0px;
 	.product__title2 {
 		font-size: 20px;
 	}
-	.product__container {
-		padding: 0px;
+	.product__body {
+		margin: 0px -20px;
 	}
 	.product__item {
 		padding: 30px 20px;
