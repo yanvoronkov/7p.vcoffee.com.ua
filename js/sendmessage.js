@@ -12,7 +12,8 @@ document.getElementById('form').addEventListener('submit', function (e) {
 	let message = `Заявка с сайта!\n`;
 	message += `Имя: ${this.name.value}\n`;
 	message += `Телефон: ${this.phone.value}\n`;
-	message += `Вид кофе: ${this.message.value}`;
+	message += `Вид кофе: ${this.message.value}\n`;
+	message += `Адрес: ${this.adress.value}\n`;
 
 	axios.post(URI_API, {
 		chat_id: CHAT_ID,
@@ -23,6 +24,7 @@ document.getElementById('form').addEventListener('submit', function (e) {
 			this.name.value = "";
 			this.phone.value = "";
 			this.message.value = "";
+			this.adress.value = "";
 			success.style.display = "flex";
 			form.style.display = "none";
 		})

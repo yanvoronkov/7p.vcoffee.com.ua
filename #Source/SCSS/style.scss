@@ -1026,6 +1026,21 @@ padding: 0px 0px 60px 0px;
 		border-radius: 50%;
 		margin: 0px 10px 0px 0px;
 	}
+
+	.order__logo {
+		align-items: center;
+		text-align: center;
+	}
+	.order__logo img {
+		width: 50px;
+		height: 50px;
+	}
+	.order__logo >* {
+		display: block;
+		margin: 20px 0px 20px 0px;
+		font-size: 20px;
+	}
+
 @media (max-width: 832px) {
 
 	.order__body {
@@ -1040,6 +1055,11 @@ padding: 0px 0px 60px 0px;
 	.form__label {
 		text-align: left;
 	}
+	.order__logo >* {
+		display: block;
+		margin: 20px 0px 20px 0px;
+		font-size: 15px;
+	}
 }
 @media (max-width: 400px) {
 	.order__image img {
@@ -1048,7 +1068,10 @@ padding: 0px 0px 60px 0px;
 	.order__body {
 		padding: 0px 0px 40px 0px;
 	}
-	
+	.order__logo img {
+		width: 40px;
+		height: 40px;
+	}
 }
 // .form {
 // 	display: none;
